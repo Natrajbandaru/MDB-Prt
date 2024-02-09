@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/FonstAwsome.css"> -->
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    
+    <!-- Normal Bootstarap -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.bundle.js"></script> -->
+
+     <!-- MDB Bootstarap -->
+    <!-- <link rel="stylesheet" href="mdBootstrap/css/mdb.min.css"> 
+    <script  src="mdBootstrap/js/mdb.es.min.js"></script>  -->
+    
+</head>
+<body>
+    <nav class="bg-dark m-2 navbar" > <p class="" style="color: aliceblue;">Bs Accordian</p></nav>
+    <!-- Collapse -->
+    <!-- <button class="btn btn-primary mr-5" data-toggle="collapse" data-target="#blue-card">button</button>
+
+    <div class="m-5 collapse" id="blue-card">
+        <div class="card">
+            <div class="card-body bg-primary text-white mt-1">
+                <h1>BS Collapse</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit alias distinctio odio ab. Reiciendis nostrum consequatur nisi laudantium minima eveniet beatae vitae numquam assumenda amet dignissimos corporis rem asperiores repudiandae tenetur a, aperiam, quibusdam qui ipsum impedit officiis. Nemo, maxime.</p>
+            </div>
+    
+        </div>
+    </div> -->
+
+    <!-- Acardian -->
+    <div class="accordion m-3" id="question-accordian">
+        <!-- question 1 -->
+        <div class="card">
+             <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#question-1" >
+                  <h3>What is Bootstrap?</h3>
+             </div>
+             <div class="collapse badge-dark" id="question-1" data-parent="#question-accordian">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum alias tenetur molestias eveniet labore rerum magni optio laboriosam! Doloribus corporis facere totam repellat vero nihil recusandae nostrum, nesciunt dolorum iusto sit similique non dicta ab culpa assumenda est magni rem.</p>
+                </div>
+             </div>
+
+        </div>
+
+         <!-- question 2 -->
+         <div class="card">
+            <div class="card-header bg-secondary text-white" data-toggle="collapse" data-target="#question-2" >
+                 <h3>What is Material css?</h3>
+            </div>
+            <div class="collapse badge-dark" id="question-2" data-parent="#question-accordian">
+               <div class="card-body">
+                   <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum alias tenetur molestias eveniet labore rerum magni optio laboriosam! Doloribus corporis facere totam repellat vero nihil recusandae nostrum, nesciunt dolorum iusto sit similique non dicta ab culpa assumenda est magni rem.</p>
+               </div>
+            </div>
+       </div>
+
+        <!-- question 3 -->
+        <div class="card">
+            <div class="card-header bg-primary text-white" data-toggle="collapse" data-target="#question-3">
+                 <h3>What is Material css?</h3>
+            </div>
+            <div class="collapse bg-danger" id="question-3" data-parent="#question-accordian">
+               <div class="card-body">
+                   <p>3Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum alias tenetur molestias eveniet labore rerum magni optio laboriosam! Doloribus corporis facere totam repellat vero nihil recusandae nostrum, nesciunt dolorum iusto sit similique non dicta ab culpa assumenda est magni rem.</p>
+               </div>
+            </div>
+
+       </div>
+
+    </div>
+
+
+  
+</body>
+
+
+</html>

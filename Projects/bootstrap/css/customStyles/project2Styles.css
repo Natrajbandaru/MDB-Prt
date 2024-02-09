@@ -1,0 +1,35 @@
+.bg-navbar{
+    background-color: #e6eae4 !important;
+}
+.bg-light{
+    background-color: #e6eae4 !important;
+}
+/* .fullscreen-landing{
+       background: white url("/Projects/bootstrap/Photos/project2photos/backgroundimage.jpg") no-repeat scroll center;
+       
+       height: 100vh;
+       background-size: cover;
+    } */
+
+    .fullscreen-landing {
+        color: white;
+        background: white url("backgroundimage.jpg") no-repeat scroll center;
+        height: 100vh;
+        background-size: cover;
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        padding: 20%;
+    }
+    .subscribe-section{
+        color: white;
+        background: white url("backgroundimage.jpg") no-repeat scroll center;
+        background-size: cover;
+
+    }
+    .subscribe-overlay{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+    }
+    

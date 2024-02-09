@@ -1,0 +1,230 @@
+Two Types of Bootstraps
+ 1) Normal Bootstrap
+ 2) MaterialDesign Bootstrap
+
+Topics
+-> Basic Keywords(See on the bootstrap files)
+   data-toggle    OR data-mdb-toggle (Name of the Method) collapse
+   data-target    OR data-mdb-target (Id) #id
+   data-collapse  OR data-mdb-collapse(Id) #id
+   data-dismiss  (OR) data-mdb-dismiss (OR) data-bs-dismiss (Name of Method) Model
+   data-parent   (Id of Parrent) 
+   data-ride     OR    data-mdb-ride  (Id used for carosul)
+
+
+->Basic Colors
+  primary
+  info
+  danger
+  success
+  light
+  dark
+  warning
+-> BS--Typography
+   HEADERCLASS     DESPLAYCLASS(Morethan Header) 
+    .h1           .display1       .lead
+    .h2           .display2       .text-muted
+    .h3           .display3            
+    .h4           .display4        .font-weigth-bold   .fw-bold(MDB)
+    .h5           .display5        .font-weight-italic
+    .h6           .display6
+    
+
+-> BS- Alerts(Used In Showing Error Message or succes Message)
+   .alert
+   .alert-dismisable(For Closing Alert)
+   .alert-link
+   .close
+   
+
+-> BS- Badges(Used In Any Notification count Side)
+   badge
+   badge-pull(Radues well Border radus)
+   rounded-cercle(It well Round for all)
+
+-> BS -- Margen/Padding 
+
+   (Margen  0,1,2,3,4,5,auto)  
+
+   mt   ----- 
+            | my     ----
+   mb   -----
+                        |   m
+   ml     ----
+             | mx    ----
+   mr     ---- 
+
+  (Padding 0,1,2,3,4,5,auto)  
+   pt   ----- 
+            | py     ----
+   pb   -----
+                        |   p
+   pl     ----
+             | px    ----
+   pr     ---- 
+
+   BS   VS  MDB
+   ml       ms
+   mr       me
+   mt       mt
+   mb       mb
+
+-> BS-- BreadCrump(Bread Crumb are used to a Path of application eg:HOME/ABOUT/PROFILE)
+   BreadCrump
+   BreadCrump item
+
+-> BS -- ListGroup(List Group is the group of Item in order way HOW TO DISPLAY LIST NORMAL WAY)
+  list-group 
+  list-group-horizontal 
+  list-group-item
+  list-group-item-action
+  list-group-item-dark
+
+   
+-> BS -- Buttons
+   a) Normal Button
+      btn 
+      btn-dark(6)
+   b) outLine Button
+      btn
+      btn-outLine-dark(6)
+   btn-group  (used for toggle button)
+   btn-group-item
+      
+->BS- Form
+   form-group
+   form-control
+   form-inline
+   form-check
+   form-check-input
+   form-check-control
+
+->BS- input Groups( Input groups are used to Giveing Static words eg:@gmail.com)
+  https://use.fontawesome.com/releases/v5.8.1/css/all.css
+  .input-group
+  .input-group-prepend
+  .input-group-append
+  .input-group-text
+
+->BS-Progres(25%)
+  .Progress
+  .Progres-bar
+
+-> BS-Table
+  .table 
+  .table-border
+  .table-border-less
+  .table-hover
+  .table-dark
+  .table-striped
+
+-> BS-Spinners
+  .Spinners
+  .roundSpinners
+
+-> BS-Navbar
+  .navbar 
+  .navbar-dark
+  .navbar-expand-sm
+  .navbar-brand
+  .navbar-collapse
+  .collapse
+  .navbar-nav
+  .navbar-item
+  .navbar-link
+  .navbar-toggler
+  .navbar-toggler-icon
+
+
+-> BS- droupDown
+   .droupDown
+   .droupdown-menue
+   .droup-down-item
+
+-> BS-Card
+   .card
+   .card-header
+   .card-body
+      .card-title
+      .card-subtitle
+      .card-text
+      .card-img
+   .card-fotter
+
+   * Vertical Card
+   * horizontalCard
+   * Card with forms
+
+-> BS-col/row
+   .col
+   .row
+   .col-md-4
+
+-> BS-collapse and accordian
+   .collapse  (Collapse well when we are clicking it well populate and go)
+   .accordian (Accordian well when we are clicking it well 
+                populate and go but it is used for Number of collapse)
+
+-> BS-Modal
+   .modal 
+   .modal-dialog
+   .modal-content
+   .modal-header
+   .modal-body
+
+-> BS- Carusol(Its is a slider of Images)
+   .carousel
+   .carousel-inner
+   .carousel-item
+   .carousel-caption
+   .active
+   .carousel-control-prev
+   .carousel-control-next
+
+-> BS-GRID system
+
+ 	            XSmall   	Small	     Medium	       Large	     Extra Large	         XXL
+Class prefix	.col-	    .col-sm-	 .col-md-	  .col-lg-     	.col-xl-	         .col-xxl-
+Screen width	<576px	  >=576px	  >=768px	   >=992px	       >=1200px	      >=1400px
+
+   
+   Each Row -> 12 Col  --> 12/3  = 4 
+
+   .col-4 .col-3 .col-2 .col-1.....
+   =>For Different Screens  col-<screen>-<number>
+     eg: col-md-4
+         col-lg-4
+         col-xl-4
+         col-sm-4
+
+   =>.contaner(Give Some Space), .conaner-flued(It well Not Give any space)
+       .row
+        .col
+         .contant
+
+
+   
+
+
+
+
+
+
+
+
+   
+   
+
+
+   
+   
+
+
+
+    
+
+   
+
+
+    
+
